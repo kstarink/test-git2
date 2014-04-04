@@ -23,6 +23,12 @@
                 "element": {"#": "badge"}
             }
         },
+        "badge2": {
+            "prototype": "digit/ui/badge.reel",
+            "properties": {
+                "element": {"#": "badge2"}
+            }
+        },
         "button": {
             "prototype": "digit/ui/button.reel",
             "properties": {
@@ -279,6 +285,20 @@
                 "checked": true
             }
         },
+        "radio2": {
+            "prototype": "digit/ui/radio-button.reel",
+            "properties": {
+                "element": {"#": "radio2"},
+                "checked": true
+            }
+        },
+        "radio3": {
+            "prototype": "digit/ui/radio-button.reel",
+            "properties": {
+                "element": {"#": "radio3"},
+                "checked": true
+            }
+        },
         "radioButtonController": {
             "prototype": "montage/core/radio-button-controller"
         },
@@ -338,6 +358,13 @@
                 "value": "Text"
             }
         },
+        "text3": {
+            "prototype": "digit/ui/text.reel",
+            "properties": {
+                "element": {"#": "text3"},
+                "value": "Text"
+            }
+        },
         "textArea": {
             "prototype": "digit/ui/text-area.reel",
             "properties": {
@@ -345,10 +372,24 @@
                 "value": "Text"
             }
         },
+        "textArea2": {
+            "prototype": "digit/ui/text-area.reel",
+            "properties": {
+                "element": {"#": "textArea2"},
+                "value": "Text"
+            }
+        },
         "textField": {
             "prototype": "digit/ui/text-field.reel",
             "properties": {
                 "element": {"#": "textField"},
+                "placeholderValue": "Text"
+            }
+        },
+        "textField2": {
+            "prototype": "digit/ui/text-field.reel",
+            "properties": {
+                "element": {"#": "textField2"},
                 "placeholderValue": "Text"
             }
         },
@@ -384,15 +425,22 @@
                     <select data-montage-id="select">
                         <option value="">
                             Select
+                            <output data-montage-id="badge2"></output>
                         </option>
                     </select>
                     <input type="number" data-montage-id="number">
-                        <input type="radio" data-montage-id="radio">
+                        <input type="radio" data-montage-id="radio3">
                     </input>
+                    <input type="radio" data-montage-id="radio">
+                    <p data-montage-id="text3">
+                        <textarea data-montage-id="textArea2"></textarea>
+                    </p>
+                    <input data-montage-id="textField2" type="text">
                     <li>
                         Item
                     </li>
                 </ul>
+                <input type="radio" data-montage-id="radio2">
                 <div data-montage-id="substitution">
                     <img data-montage-id="image">
                     <input type="checkbox" data-montage-id="checkbox">

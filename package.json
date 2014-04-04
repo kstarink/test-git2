@@ -11,5 +11,14 @@
     "exclude": [
         "run-tests.html",
         "test"
-    ]
+    ],
+    "author": {
+        "name": "Kristie Starink",
+        "email": "kristie@starink.com",
+        "url": "montagestudio.com"
+    },
+    "license": "BSD",
+    "homepage": "montagestudio.com",
+    "private": true,
+    "description": "description"
 }
