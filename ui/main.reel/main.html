@@ -24,10 +24,7 @@
             }
         },
         "badge2": {
-            "prototype": "digit/ui/badge.reel",
-            "properties": {
-                "element": {"#": "badge2"}
-            }
+            "prototype": "digit/ui/badge.reel"
         },
         "button": {
             "prototype": "digit/ui/button.reel",
@@ -289,7 +286,9 @@
             "prototype": "digit/ui/radio-button.reel",
             "properties": {
                 "element": {"#": "radio2"},
-                "checked": true
+                "checked": true,
+                "enabled": true,
+                "radioButtonController": "test"
             }
         },
         "radio3": {
@@ -425,12 +424,10 @@
                     <select data-montage-id="select">
                         <option value="">
                             Select
-                            <output data-montage-id="badge2"></output>
                         </option>
                     </select>
                     <input type="number" data-montage-id="number">
-                        <input type="radio" data-montage-id="radio3">
-                    </input>
+                    <input type="radio" data-montage-id="radio3">
                     <input type="radio" data-montage-id="radio">
                     <p data-montage-id="text3">
                         <textarea data-montage-id="textArea2"></textarea>
