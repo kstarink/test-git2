@@ -26,7 +26,11 @@
             }
         },
         "badge2": {
-            "prototype": "digit/ui/badge.reel"
+            "prototype": "digit/ui/badge.reel",
+            "properties": {
+                "element": {"#": "textField2"},
+                "axis": "horizontal"
+            }
         },
         "button": {
             "prototype": "digit/ui/button.reel",
@@ -252,7 +256,7 @@
         "image": {
             "prototype": "digit/ui/image.reel",
             "properties": {
-                "element": {"#": "image"},
+                "element": {"#": "overlay"},
                 "crossOrigin": null
             }
         },
@@ -277,10 +281,7 @@
             }
         },
         "overlay": {
-            "prototype": "montage/ui/overlay.reel",
-            "properties": {
-                "element": {"#": "overlay"}
-            }
+            "prototype": "montage/ui/overlay.reel"
         },
         "promiseController": {
             "prototype": "montage/core/promise-controller",
@@ -413,7 +414,7 @@
         "textField2": {
             "prototype": "digit/ui/text-field.reel",
             "properties": {
-                "element": {"#": "textField2"},
+                "element": {"#": "image"},
                 "placeholderValue": "Text"
             }
         },
