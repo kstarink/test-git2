@@ -35,7 +35,7 @@
         "button": {
             "prototype": "digit/ui/button.reel",
             "properties": {
-                "element": {"#": "button"},
+                "element": {"#": "listItem"},
                 "enabled": true,
                 "label": "Button"
             }
@@ -269,7 +269,7 @@
         "listItem": {
             "prototype": "digit/ui/list-item.reel",
             "properties": {
-                "element": {"#": "listItem"},
+                "element": {"#": "textField"},
                 "highlight": "uu"
             }
         },
@@ -281,7 +281,10 @@
             }
         },
         "overlay": {
-            "prototype": "montage/ui/overlay.reel"
+            "prototype": "montage/ui/overlay.reel",
+            "properties": {
+                "element": {"#": "button"}
+            }
         },
         "promiseController": {
             "prototype": "montage/core/promise-controller",
@@ -407,7 +410,6 @@
         "textField": {
             "prototype": "digit/ui/text-field.reel",
             "properties": {
-                "element": {"#": "textField"},
                 "enabled": true,
                 "placeholderValue": "Text",
                 "value": "hjhj"
