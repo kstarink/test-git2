@@ -1,0 +1,1 @@
+montageDefine("b362378","my-module",{dependencies:["montage/core/core"],factory:function(e,n){var t=e("montage/core/core").Montage;n.MyModule=t.specialize({constructor:{value:function(){this.super()}}})}});

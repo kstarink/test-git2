@@ -1,0 +1,1 @@
+var Montage=require("montage/core/core").Montage;exports.MyModule=Montage.specialize({constructor:{value:function(){this.super()}}});
