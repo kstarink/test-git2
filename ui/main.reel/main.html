@@ -35,7 +35,7 @@
         "button": {
             "prototype": "digit/ui/button.reel",
             "properties": {
-                "element": {"#": "listItem"},
+                "element": {"#": "textField"},
                 "enabled": true,
                 "label": "Button"
             }
@@ -269,7 +269,6 @@
         "listItem": {
             "prototype": "digit/ui/list-item.reel",
             "properties": {
-                "element": {"#": "textField"},
                 "highlight": "uu"
             }
         },
@@ -421,6 +420,7 @@
         "textField": {
             "prototype": "digit/ui/text-field.reel",
             "properties": {
+                "element": {"#": "listItem"},
                 "enabled": true,
                 "placeholderValue": "Text",
                 "value": "hjhj"
